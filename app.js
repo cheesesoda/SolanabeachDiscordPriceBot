@@ -50,7 +50,7 @@ client.on('message', msg => {
             json: true
         }, function (error, response, body) {
             if (!error && response.statusCode === 200) {
-                var volume = Math.trunc(body['meta']['marketVolume'] * 100) / 100; // Print the json response
+                var volume = Math.trunc(body['meta']['marketVolume'] * 100) / 100;
                 msg.reply('TokenSymbol volume: $' + volume);
             }
         })
