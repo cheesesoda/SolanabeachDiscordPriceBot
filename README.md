@@ -1,4 +1,4 @@
-# SolanabeachDiscordPriceBot
+# Solanabeach Discord Price Bot
 A simple &amp; stupid (NodeJS) Discord Solana token market price bot<br>
 It fetches the current Serum custom market price from solanabeach.io
 
