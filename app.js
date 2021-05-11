@@ -2,9 +2,9 @@
 const {Discord, Guild, Client, Channel, GuildMemberManager} = require('discord.js');
 const client = new Client();
 const {exec} = require('child_process');
-client.login('Your_Discord_Bot_ID');
+client.login('ODQxNjQwOTUwOTQ1ODA4Mzg2.YJptNw.uRcIvh1Fq55SksbxUwAy5usIwfM');
 
-var url = 'https://prod-api.solana.surf/v1/token/YOURTOKENMINTADDRESS?';
+var url = 'https://prod-api.solana.surf/v1/token/3x7UeXDF4imKSKnizK9mYyx1M5bTNzpeALfPeB8S6XT9?';
 var request = require("request")
 
 client.on('ready', async () => {
